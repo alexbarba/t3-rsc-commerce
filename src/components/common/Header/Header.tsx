@@ -3,6 +3,7 @@ import Image from "next/image";
 import Logo from "../../../../public/logo.webp";
 import { MagnifyingGlassIcon } from "@radix-ui/react-icons";
 import { ShoppingBagIcon } from "@heroicons/react/24/solid";
+import Link from "next/link";
 
 const Header = () => {
   return (
@@ -22,9 +23,9 @@ const Header = () => {
         <MagnifyingGlassIcon className="absolute inset-y-0 left-2 my-auto h-4 w-4" />
       </label>
 
-      <button className="p-2">
+      <Link className="p-2" href="/cart">
         <ShoppingBagIcon className="h-6 w-6" />
-      </button>
+      </Link>
     </header>
   );
 };
