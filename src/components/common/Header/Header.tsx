@@ -1,6 +1,5 @@
 "use client";
-import Image from "next/image";
-import Logo from "../../../../public/logo.webp";
+import { Logo } from "@components/common";
 import { MagnifyingGlassIcon } from "@radix-ui/react-icons";
 import { ShoppingBagIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
@@ -8,11 +7,7 @@ import Link from "next/link";
 const Header = () => {
   return (
     <header className="grid-4 flex h-16 items-center justify-between bg-slate-600 p-4 shadow-md sm:px-8">
-      <Image
-        src={Logo}
-        alt="Logo"
-        className="aspect-square w-10 rounded-full bg-white object-cover p-1"
-      />
+      <Logo className="aspect-square w-10 rounded-full bg-white object-cover p-1" />
 
       <label className="align-center relative flex h-full w-full max-w-md justify-center">
         <input
