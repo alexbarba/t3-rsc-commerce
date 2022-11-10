@@ -22,7 +22,7 @@ const ProductCard: FC<{ product: Product }> = ({ product }) => {
 const ProductList: FC<{ products: Product[] }> = ({ products }) => {
   return (
     <ul className="grid auto-cols-max grid-flow-col-dense gap-4">
-      {[...products, ...products, ...products].map((product) => (
+      {products.map((product) => (
         <li key={product.id}>
           <ProductCard product={product} />
         </li>
