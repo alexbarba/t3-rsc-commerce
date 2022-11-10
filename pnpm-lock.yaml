@@ -2,6 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@heroicons/react': ^2.0.13
+  '@next/font': ^13.0.2
   '@prisma/client': ^4.6.0
   '@radix-ui/react-icons': ^1.1.1
   '@tailwindcss/forms': ^0.5.3
@@ -25,6 +26,7 @@ specifiers:
   prisma: ^4.5.0
   react: 18.2.0
   react-dom: 18.2.0
+  react-hook-form: ^7.39.1
   superjson: 1.9.1
   tailwindcss: ^3.2.0
   typescript: ^4.8.4
@@ -32,6 +34,7 @@ specifiers:
 
 dependencies:
   '@heroicons/react': 2.0.13_react@18.2.0
+  '@next/font': 13.0.2
   '@prisma/client': 4.6.0_prisma@4.5.0
   '@radix-ui/react-icons': 1.1.1_react@18.2.0
   '@tanstack/react-query': 4.14.5_biqbaboplfbrettd7655fr4n2y
@@ -42,6 +45,7 @@ dependencies:
   next: 13.0.1_biqbaboplfbrettd7655fr4n2y
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
+  react-hook-form: 7.39.1_react@18.2.0
   superjson: 1.9.1
   zod: 3.19.1
 
@@ -132,6 +136,10 @@ packages:
     dependencies:
       glob: 7.1.7
     dev: true
+
+  /@next/font/13.0.2:
+    resolution: {integrity: sha512-tLbyZCA1uF8HjbUEN5c4zB453yEzt5aT9VDhXPw1/eJhX4U0Q4lD3s3Bs+gpCjuLrEgILd56jQuzxgrMnWHH8A==}
+    dev: false
 
   /@next/swc-android-arm-eabi/13.0.1:
     resolution: {integrity: sha512-M28QSbohZlNXNn//HY6lV2T3YaMzG58Jwr0YwOdVmOQv6i+7lu6xe3GqQu4kdqInqhLrBXnL+nabFuGTVSHtTg==}
@@ -2100,6 +2108,15 @@ packages:
       loose-envify: 1.4.0
       react: 18.2.0
       scheduler: 0.23.0
+    dev: false
+
+  /react-hook-form/7.39.1_react@18.2.0:
+    resolution: {integrity: sha512-MiF9PCILN5KulhSGbnjohMiTOrB47GerDTichMNP0y2cPUu1GTRFqbunOxCE9N1499YTLMV/ne4gFzqCp1rxrQ==}
+    engines: {node: '>=12.22.0'}
+    peerDependencies:
+      react: ^16.8.0 || ^17 || ^18
+    dependencies:
+      react: 18.2.0
     dev: false
 
   /react-is/16.13.1:
