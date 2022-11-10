@@ -14,10 +14,7 @@ const page = async () => {
       <div className="my-4 flex items-center justify-between">
         <h1 className="text-3xl font-bold">Productos</h1>
 
-        <Link
-          href="products/create"
-          className="flex items-center justify-center rounded-md border border-slate-300 py-2 px-4 hover:bg-slate-300 hover:text-slate-900"
-        >
+        <Link href="products/create" className="btn">
           <PlusIcon className="mr-4 h-5 w-5" />
           Nuevo producto
         </Link>
